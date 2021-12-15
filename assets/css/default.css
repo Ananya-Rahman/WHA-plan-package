@@ -1,0 +1,343 @@
+/*------------------------------------------------------------------
+Last change:    24/04/21 [fixed Float bug, vf]
+
+-------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------
+[Table of contents]
+
+  01. Theme Default Css
+
+
+  -------------------------------------------------------------------*/
+
+
+/*
+/* Font Face */
+
+
+/*
+==========================================
+   01. Theme Default CSS
+==========================================
+*/
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Raleway:wght@500&display=swap');
+
+.herocu{
+  background-color: #EBFEF1;
+  padding-top: 70px;
+}
+.border-line{
+  border-bottom: 2px solid #016939;
+  padding-bottom: 0px;
+}
+.group-img{
+  background-repeat: no-repeat;
+  background-size: 97% 70%;
+  margin-top: 40px;
+  height: 500px;
+}
+.about-title h1{
+  font-family: 'Raleway', sans-serif;
+  color: #016939;
+  font-size: 40px;
+  text-transform: uppercase;
+  padding-bottom: 10px;
+}
+.description p{
+  font-size: 20px;
+  color: #707070;
+}
+.pill-button{
+  background-color: #016939;
+  border: none;
+  color: #FFFFFF;
+  height: 37px;
+  width: 146px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 25px;
+}
+.promotion-title h1{
+  font-size: 40px;
+  color: #016939;
+  font-family: 'Open Sans', sans-serif;
+}
+.list-group-item{
+  border: none;
+}
+.strategy-list-items ul li{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 25px;
+  color: #263238;
+}
+.strategy-list-items ul li i{
+padding-right: 10px;
+}
+section.promotion {
+  padding-top: 70px;
+}
+.data-link span{
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #263238;
+
+}
+.data-link span a{
+  padding-top: 15px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 30px;
+  color: #263238;
+  cursor: pointer;
+}
+.second-element{
+  border: 1px solid #2AA7E2;
+  background-color: #EBF9FF;
+}
+.third-elemets{
+  background-color: #FFFBF1 ;
+  border: 1px solid #FCB619 ;
+}
+.card-elemnts{
+  border-top-left-radius: 11px;
+  margin-top: 50px;
+  height: auto;
+}
+.all-section{
+
+  border-bottom: 1px solid #263238;
+}
+.crd-img-txt{
+  height: 196px;
+  background-repeat: no-repeat;
+  padding-top: 30px;
+  background-size: 100% 100%;;
+}
+.crd-img-txt h1{
+  color: #FFFFFF;
+  font-size: 40px;
+  font-weight: bold;
+
+  font-family: 'Open Sans', sans-serif;
+}
+.check-lst ul li i{
+  padding-right: 10px;
+  
+}
+.check-lst ul li{
+  font-size: 18px;
+  color: #263238;
+  padding: 5px;
+  font-weight: bold;
+  list-style: none;
+  font-family: 'Open Sans', sans-serif;
+}
+.crd-img-txt span{
+  color: #FFFFFF;
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: bold;
+}
+.tabs-test{
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+}
+.list li{
+  list-style: none;
+  font-size: 28px;
+  color: #263238;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.ul {
+  padding-left: 20px;
+}
+ul.list {
+  padding-left: 18px;
+}
+.spacing-left{
+  padding-left: 20px;
+ 
+}
+.spacing-left h4{
+  font-size: 28px;
+  color: #263238;
+  font-weight: bold;
+  font-family: 'Open Sans', sans-serif;
+}
+.dot-lists ul li{
+  font-family: 'Open Sans', sans-serif;
+  font-size:18px;
+  padding: 5px;
+  color: #263238;
+  font-weight: bold;
+}
+.more span{
+  font-family: 'Open Sans', sans-serif;
+  font-size:20px;
+  color: #7DBB41;
+  font-weight: bold;
+  padding-left: 18px;
+  cursor: pointer;
+}
+.more span i{
+  font-size:20px;
+  color: #7DBB41;
+  padding-left: 15px;
+}
+.last-elements{
+  padding-left: 20px;
+}
+.last-elements h4{
+font-size: 28px;
+font-family: 'Open Sans', sans-serif;
+color: #263238;
+
+}
+.small-txt span{
+  font-size: 20px;
+font-family: 'Open Sans', sans-serif;
+color: #263238;
+font-weight: bold;
+padding-bottom: 10px;
+}
+.plain-text p{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #263238;
+  font-weight: bold;
+  
+}
+.padding-space h5{
+  font-size: 25px;
+  font-family: 'Open Sans', sans-serif;
+  color: #263238;
+  font-weight: bold;
+}
+.padding-space span{
+  font-size: 18px;
+  font-family: 'Open Sans', sans-serif;
+  color: #263238;
+  font-weight: bold;
+}
+.padding-space{
+  padding-bottom: 12px;
+}
+.button-one {
+  background-color: #7DBB41;
+  border: 1px solid #7DBB41;
+  color: #FFFFFF;
+  font-weight: bold;
+  padding: 10px 20px 10px 20px;
+  font-family: 'Open Sans', sans-serif;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+.more-two span , .more-two i {
+ color: #2AA7E2 !important;
+}
+.pb-pb h4 {
+  padding-bottom: 184px;
+}
+
+.btn-two{
+  background-color: #2AA7E2 ;
+  border: 1px solid #2AA7E2;
+}
+.button-three{
+  background-color: #FCB619;
+  border: 1px solid #FCB619 ;
+
+}
+.bg-border-color{
+background-color: #F3FFF7;
+border: 1px solid #7DBB41;
+}
+.button-groups{
+  padding-top: 10px;
+  padding-bottom: 30px;
+}
+.last-btn {
+  padding-top: 272px;
+}
+.custom{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.title-customer h1{
+  font-size: 40px;
+  font-family: 'Open Sans', sans-serif;
+  color: #FCB619;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+.title-customer{
+padding-top: 20px;
+padding-bottom: 20px;
+}
+
+.about-btn .click-btn{
+  background-color: #2E3888;
+}
+.medical-title h1{
+  font-family: 'Raleway', sans-serif;
+    color: #2E3888;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.package-title h1{
+  font-family: 'Raleway', sans-serif;
+    color: #016939;
+    font-size: 40px;
+    text-transform: uppercase;
+}
+.medical-title span{
+  border-bottom: 2px solid #2E3888;
+}
+.right-side-section {
+  background-color: #CCE1FF;
+}
+.left-side-section {
+  padding-top: 35px;
+  background-color: #EBFEF1;
+  padding-bottom: 40px;
+}
+.txt-description p{
+  font-size: 20px;
+  color: #707070;
+}
+.left-side-img{
+  background-color: #EBFEF1;
+}
+.left-align-txt{
+  margin-left: 49px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.right-align-txt{
+  margin-right: 49px;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+.about-btn {
+  margin-left: -8px;
+}
+.full-height .img-fluid{
+  height: 575px;
+}
+.doctors-group .img-fluid{
+  height: 575px;
+}

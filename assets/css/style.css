@@ -1,0 +1,129 @@
+
+/* busket css */
+
+/* Responsive css */
+@media only screen and (min-width:1200px) and (max-width: 1240px){
+
+ 
+}
+
+@media only screen and (min-width:991px) and (max-width: 1199px){
+    .crd-img-txt span {
+        font-size: 20px;
+    }
+    .last-elements h4 {
+        font-size: 23px;
+    }
+    .button-one{
+        font-size: 25px;
+    }
+    .list li {
+        font-size: 25px;
+    }
+    .last-btn {
+        padding-top: 213px;
+    }
+    .full-height .img-fluid {
+        height: 665px;
+    }
+    .doctors-group .img-fluid {
+        height: 615px;
+    }
+    .left-align-txt {
+        margin-left: 15px;
+    }
+    .right-align-txt {
+        margin-right: 15px;
+
+    }
+}
+@media only screen and (min-width:768px) and (max-width: 992px){
+    .package-title h1 {
+        font-size: 30px;
+    }
+        .txt-description p {
+            font-size: 18px; 
+        }
+        .medical-title h1 {
+
+            font-size: 30px;
+
+        }
+        .pill-button{
+            font-size: 18px;
+            width: 128px;
+        }
+        .left-align-txt {
+            margin-left: 80px;
+        }
+        .right-align-txt {
+            margin-right: 80px;
+
+        }
+        .full-height .img-fluid{
+            height: 775px;
+        }
+        .doctors-group .img-fluid{
+            height: 737px;
+        }
+}
+@media only screen and (min-width:576px) and (max-width: 768px){
+    .left-align-txt {
+        margin-left: 60px;
+    }
+    .right-align-txt {
+        margin-right: 60px;
+
+    }
+}
+
+
+@media only screen and (min-width:320px) and (max-width: 576px){
+    .group-img {
+        height: 300px;
+        margin-top: 30px;
+    }
+    .button-one{
+        font-size: 25px;
+    }
+    .crd-img-txt span {
+        font-size: 20px;
+    }
+    .list li {
+        font-size: 25px;
+    }
+    .title-customer h1 {
+        font-size: 30px;
+    }
+    .data-link span a {
+        font-size: 20px;
+    }
+    .full-height .img-fluid {
+        height: 275px;
+    }
+    .doctors-group .img-fluid {
+        height: 275px;
+    }
+    .package-title h1 {
+        font-size: 20px;
+    }
+        .txt-description p {
+            font-size: 16px; 
+        }
+        .medical-title h1 {
+
+            font-size: 20px;
+
+        }
+        .pill-button{
+            font-size: 18px;
+            width: 128px;
+        }
+        .left-align-txt {
+            margin-left: 0px;
+        }
+        .right-align-txt {
+            margin-right: 0px;
+
+        }
+}
